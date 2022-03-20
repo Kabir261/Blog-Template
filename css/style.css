@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #000000;
+    height: 2px;
+}
+body{
+    background: linear-gradient(to bottom right ,#eeaed7,#ecc0dc);
+}
+.navigation
+{
+    background-color: #19164F;
+height: 43px;
+border-radius: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: var(--font1);
+margin-top: 27px;
+color: #fff;
+padding: 4px 8px ;
+}
+.nav-left{
+ font-size: 40px;
+ display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav-left ul li:hover a{
+    color: #FAEC41;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*------------Content--------------------*/
+
+.content
+{
+height: 395px;
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.content-left{
+    flex-basis: 50%;
+font-family: var(--font1);
+padding: 0 15px;
+}
+.content-left p{
+    font-size: 25px;
+}
+.content-left h1{
+    font-size: 44px;
+}
+.content-right{
+    padding: 0 15px;
+}
+
+.content-right img{
+    height: 355px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    
+}
+/*------------------Article-Section--------------------------*/
+.home-article{
+    display: flex;
+    margin: 50px;
+    
+}
+.home-article img{
+    /* height: 355px; */
+    width: 300px;
+    box-sizing: border-box;
+}
+.home-article-content{
+    margin: 23px;
+    align-self: center;
+}
+.home-article-content a{
+    text-decoration: none;
+}
+.home-article-content a:hover{
+    color:#EB477A;
+}
+.home-articles{
+  /* height: 1400px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #D5E5FF;
+  position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 234px;
+    height: 254px;
+    right: 419px;
+    top: 100px;
+    font-size: 20px;
+   
+}
+.year-box input{
+    margin: 12px 0;
+}
+.home-articles h2{
+    
+    
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+/*-----------------Footer----------------------*/
+
+.footer
+{
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+flex-direction: column;
+background:#1B1B57;
+margin-top: 35px;
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    color: #FAEC41;
+}
